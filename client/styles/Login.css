@@ -1,0 +1,131 @@
+/* login.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e0f7fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.d-flex {
+    width: 750px;
+    display: flex;
+}
+
+.justify-content-center {
+    justify-content: center;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.bg-white {
+    background-color: #ffffff;
+}
+
+.vh-100 {
+    height: 100vh;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    transition: all 0.3s ease-in-out;
+    border-top: 5px solid #00796b; 
+}
+
+.wrapper h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #00796b; 
+    font-weight: bold;
+}
+
+.mb-3, .mb3 {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.mb-3 label, .mb3 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #00796b;
+}
+
+.mb-3 input, .mb3 input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    transition: border-color 0.3s ease;
+}
+
+.mb-3 input:focus, .mb3 input:focus {
+    border-color: #00796b;
+    outline: none;
+}
+
+button.btn-success {
+    background-color: #00796b;
+    color: #fff;
+    border: none;
+    padding: 12px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.btn-success:hover {
+    background-color: #004d40;
+}
+
+p.text {
+    margin-top: 20px;
+    color: #777;
+}
+
+a.btn-default {
+    color: #1a1eb1  ;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+    transition: color 0.3s ease;
+}
+
+a.btn-default:hover {
+    color: #004d40;
+}
+
+@media (max-width: 480px) {
+    .wrapper {
+        padding: 30px 20px;
+        width: 90%;
+    }
+}
+
+
+.login-wrapper {
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .login-wrapper.fade-out {
+    opacity: 0;
+  }
+  

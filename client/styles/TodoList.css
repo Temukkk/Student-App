@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@100..800&family=Castoro+Titling&family=Castoro:ital@0;1&family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Edu+VIC+WA+NT+Beginner:wght@400..700&family=Orbitron:wght@400..900&display=swap');
+
+.app {
+  margin-left: 35px;
+  margin-right: 200px;
+  font-family: "Anek Devanagari", sans-serif;
+  color: #f0f0f0; 
+  background-color: #333;
+  height: auto;
+  justify-content: flex-start;
+  padding: 20px;
+  width: 700px; 
+  max-width: 1200px;
+  border-radius: 12px; 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); 
+}
+
+.app h1 {
+  font-family: "Anek Devanagari", sans-serif;
+  color: #e0e0e0;
+  font-size: 2rem;
+  margin-bottom: 20px; 
+}
+
+.header {
+  margin-bottom: 30px; 
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+.input-container input {
+  background-color: #f5f5f5; 
+  width: 70%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc; 
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  transition: background-color 0.3s ease; 
+}
+
+.input-container input:focus {
+  background-color: #e0e0e0;
+}
+
+.input-container button {
+  padding: 12px 20px; 
+  font-size: 16px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #555; 
+  color: #f0f0f0; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.input-container button:hover {
+  background-color: #333; 
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  color: #d0d0d0; 
+}
+
+.task {
+  background-color: #444; 
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2); 
+  cursor: pointer;
+  color: #f0f0f0;
+}
+
+.task.completed {
+  text-decoration: line-through;
+  color: #888; 
+}
+
+.task button {
+  background-color: #666; 
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #f0f0f0; 
+  transition: background-color 0.3s ease;
+}
+
+.task button:hover {
+  background-color: #c82333; 
+}
+
+.main-content {
+  height: 200px;
+  display: flex;
+  justify-content: space-between; 
+  align-items: flex-start; 
+  width: 85%;
+}
